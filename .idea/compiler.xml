@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="security-boot-test1" />
+        <module name="security-boot-commons" />
+        <module name="spring-security-auth" />
+        <module name="security-oauth-source" />
+        <module name="security-oauth-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="security-boot-commons" target="7" />
+      <module name="security-boot-jwt" target="1.5" />
+      <module name="security-boot-test1" target="6" />
+      <module name="security-oauth-service" target="1.8" />
+      <module name="security-oauth-source" target="1.8" />
+      <module name="spring-boot-jwt" target="6" />
+      <module name="spring-security-auth" target="6" />
+      <module name="spring-security-oauth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="security-oauth-service" options="-parameters" />
+      <module name="security-oauth-source" options="-parameters" />
+    </option>
+  </component>
+</project>

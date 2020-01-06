@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "spring.security.auth.configpropertis.RsaKeyProperties",
+      "name": "rsa",
+      "type": "spring.security.auth.configpropertis.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "spring.security.auth.configpropertis.RsaKeyProperties",
+      "name": "rsa.pri-key-file",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "spring.security.auth.configpropertis.RsaKeyProperties",
+      "name": "rsa.private-key",
+      "type": "java.security.PrivateKey"
+    },
+    {
+      "sourceType": "spring.security.auth.configpropertis.RsaKeyProperties",
+      "name": "rsa.pub-key-file",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "spring.security.auth.configpropertis.RsaKeyProperties",
+      "name": "rsa.public-key",
+      "type": "java.security.PublicKey"
+    }
+  ]
+}

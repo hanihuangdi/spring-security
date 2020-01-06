@@ -1,0 +1,17 @@
+server:
+  port: 9002
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///security_authority
+    data-username: root
+    data-password: root
+  main:
+    allow-bean-definition-overriding: true
+mybatis:
+  type-aliases-package: security.oauth.service.domain
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    security.oauth.service: debug
